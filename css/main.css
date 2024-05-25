@@ -10,6 +10,26 @@
   --dark-color: #000;
 }
 
+h1 {
+  color: whitesmoke;
+}
+
+.tag-container {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.moving-tag {
+  display: inline-block;
+  animation: moveTag 10s linear infinite; /* Change the duration or animation type as needed */
+}
+
 body {
   display: flex;
   align-items: flex-end;
